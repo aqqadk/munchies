@@ -1,0 +1,73 @@
+.sidebar {
+    height: 100vh;
+    background-color: #292D33;
+    text-align:center;
+    width: 80px;
+    padding: 0;
+}
+
+.sidebar .list-group-item {
+    border-radius: 0;
+    background-color: #292D33;
+    color: #ccc;
+    border-left: 0;
+    border-right: 0;
+    border-color: #2c2c2c;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.logo {
+    font-size: 35px !important;
+    padding: 0 !important;
+}
+/* Reduce padding to help center the icons on sm-down resos */
+.list-group-item {
+    padding: .75rem;
+    font-size: 20px;
+}
+.list-group-item:not(.logo):hover {
+    background-color: #34373F !important;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #34373F !important;
+    border: none;
+}
+.item-title {
+    font-size: 11px;
+    margin: 0;
+}
+.navbar {
+    background-color: #26282E;
+    border-radius: 0;
+}
+.container-fluid {
+    background-color: #26282E;
+    color: #ccc;
+    overflow-y: hidden;
+    height: 100vh;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #292D33;
+    margin: 1em 0;
+    padding: 0; 
+}
+.dropdown-menu {
+    background-color: #34373F;
+    border: 1px solid #292D33;
+}
+.dropdown-item {
+    color: #ccc;
+}
+.tab-content {
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    height: 90vh;
+}
+.nav-tabs {border:none;}
+.nav-tabs .nav-link, .nav-tabs:hover {color: #ccc; border: none;}
+.nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+    color: #ccc; border: none; background-color: #34373F; border-bottom: 2px solid orange;
+}
